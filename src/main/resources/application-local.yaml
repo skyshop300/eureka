@@ -1,6 +1,6 @@
 eureka:
   instance: 
-    hostname: ${peer}.127.0.0.1.nip.io
+    hostname: ${peer:peer1}.127.0.0.1.nip.io
   client: 
     register-with-eureka: true
     fetch-registry: true
